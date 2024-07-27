@@ -1,6 +1,6 @@
 # EOSdots
 My dots and process that I've done in my EndervourOS system / xfce4.
-![image](https://github.com/user-attachments/assets/724ee49a-fc64-4907-8dd0-ac661f49724c)
+![Frist rice](https://github.com/user-attachments/assets/2dd8bb65-9761-44a7-a982-072121076f21)
 ![First_rice](https://github.com/user-attachments/assets/90aa15c4-50ff-4f4e-970f-d5844a7f29ab)
 
 # Packages
