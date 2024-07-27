@@ -7,8 +7,6 @@ My dots and process that I've done in my EndeavourOS system / XFCE4.
 
 ## Packages
 
-### pacman
-
 ```sh
 sudo pacman -Sy tlp tlp-rdw # Also needed to: pacman purge power-profiles-daemon
 sudo pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings
