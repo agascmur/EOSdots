@@ -1,5 +1,7 @@
 # EOSdots
 
+Special thanks to The Linux Cast https://www.youtube.com/watch?v=mgyTCqr51iI&list=LL&index=2
+
 My dots and process that I've done in my EndeavourOS system / XFCE4.
 
 ![First rice](https://github.com/user-attachments/assets/2dd8bb65-9761-44a7-a982-072121076f21)
