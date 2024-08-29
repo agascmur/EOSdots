@@ -16,5 +16,10 @@ sudo pacman -Sy psensor cpupower powertop thermald bbswitch
 sudo pacman -Sy xf86-video-intel intel-gpu-tools
 sudo pacman -Sy timeshift code mpv
 yay -Sy spotify
+
+#lobster install (series/movies)
+sudo pacman -S paru
+sudo pacman -S fzf curl grep sed patch mpv html-xml-utils socat vlc rofi
+paru -S lobster-git
 ```
 ## Rice
