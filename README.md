@@ -35,8 +35,6 @@ $HOME/.icons/Gruvbox-Plus-Dark
 
 $HOME/.themes/Gruvbox-Dark  Gruvbox-Dark-hdpi  Gruvbox-Dark-xhdpi
 
-$HOME/Themes
-
 ### Set Wallpaper at lock screen
 sudo nano /etc/lightdm/lightdm-gtk-greeter.conf
 ```sh
