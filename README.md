@@ -11,10 +11,9 @@ My dots and process that I've done in my EndeavourOS system / XFCE4.
 
 ```sh
 sudo pacman -Sy tlp tlp-rdw # Also needed to: pacman purge power-profiles-daemon
-sudo pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings
 sudo pacman -Sy psensor cpupower powertop thermald bbswitch
 sudo pacman -Sy xf86-video-intel intel-gpu-tools
-sudo pacman -Sy timeshift code mpv
+sudo pacman -Sy timeshift code mpv fastfetch
 yay -Sy spotify
 
 #lobster install (series/movies)
@@ -23,3 +22,9 @@ sudo pacman -S fzf curl grep sed patch mpv html-xml-utils socat vlc rofi
 paru -S lobster-git
 ```
 ## Rice
+Go legacy mode and remove the bottom bar, move the top bar to bottom.
+Change/Add:
+$HOME/.config/gtk-3.0/
+$HOME/.icons/Gruvbox-Plus-Dark
+$HOME/.themes/Gruvbox-Dark  Gruvbox-Dark-hdpi  Gruvbox-Dark-xhdpi
+$HOME/Themes
