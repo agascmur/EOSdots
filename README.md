@@ -28,9 +28,13 @@ Go legacy mode and remove the bottom bar, move the top bar to bottom.
 
 ### Set GruvTheme
 Change/Add:
+
 $HOME/.config/gtk-3.0/
+
 $HOME/.icons/Gruvbox-Plus-Dark
+
 $HOME/.themes/Gruvbox-Dark  Gruvbox-Dark-hdpi  Gruvbox-Dark-xhdpi
+
 $HOME/Themes
 
 ### Set Wallpaper at lock screen
