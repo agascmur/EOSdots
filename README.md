@@ -22,9 +22,26 @@ sudo pacman -S fzf curl grep sed patch mpv html-xml-utils socat vlc rofi
 paru -S lobster-git
 ```
 ## Rice
+
+### Set Bar
 Go legacy mode and remove the bottom bar, move the top bar to bottom.
+
+### Set GruvTheme
 Change/Add:
 $HOME/.config/gtk-3.0/
 $HOME/.icons/Gruvbox-Plus-Dark
 $HOME/.themes/Gruvbox-Dark  Gruvbox-Dark-hdpi  Gruvbox-Dark-xhdpi
 $HOME/Themes
+
+### Set Wallpaper at lock screen
+sudo nano /etc/lightdm/lightdm-gtk-greeter.conf
+```sh
+[Greeter]
+background=/usr/share/endeavouros/backgrounds/portal.jpg
+```
+sudo cp Git/EOSdots/Themes/portal.jpg /usr/share/endeavouros/backgrounds/
+
+Also you can install and run:
+sudo pacman -S lightdm-gtk-greeter-settings
+
+Make sure that the walpaper to use is located in the EndervourOS main directory!
