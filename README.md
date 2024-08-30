@@ -49,8 +49,10 @@ sudo pacman -S lightdm-gtk-greeter-settings
 Make sure that the walpaper to use is located in the EndervourOS main directory!
 
 ### Terminal Palettes
+```sh
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes/
 cd ~/.local/share/xfce4/terminal/
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 mv iTerm2-Color-Schemes/xfce4terminal/* .
 rm -rf iTerm2-Color-Schemes
+```
