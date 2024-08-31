@@ -55,3 +55,16 @@ git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 mv iTerm2-Color-Schemes/xfce4terminal/* .
 rm -rf iTerm2-Color-Schemes
 ```
+
+### Terminal welcome message
+```sh
+sudo pacman -S fortune-mod
+sudo pacman -S figlet
+sudo pacman -S cowsay
+
+nano ~/.bashrc
+#Add
+fortune | cowsay -f stegosaurus
+#Or
+figlet -c Fuck off
+```
