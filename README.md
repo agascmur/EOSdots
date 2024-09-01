@@ -68,3 +68,115 @@ fortune | cowsay -f stegosaurus
 #Or
 figlet -c Fuck off
 ```
+
+### Fastfetch config
+sudo mkdir -p ~/.config/fastfetch/ascii/
+
+sudo nano ~/.config/fastfetch/config.jsonc
+```sh
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  ASCII-ART
+//
+//  by Bina
+ 
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/ascii/cat.txt",
+        "padding": {
+            "top": 2,
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " •  "
+    },
+    "modules": [
+	"break",
+	"break",
+	{
+            "type": "title",
+            "color": {
+                "user": "32",  // = color2
+                "at": "37",
+                "host": "32"
+            }
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "distribution   ",
+            "keyColor": "33",
+        },
+        {
+            "type": "kernel",
+            "key": "linux kernel   ",
+            "keyColor": "33",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": "packages       ",
+            "keyColor": "33",  
+        },
+        {
+            "type": "shell",
+            "key": "unix shell     ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "terminal",
+            "key": "terminal       ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "wm",
+            "format": "{} ({3})",
+            "key": "window manager ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "cpu",
+            "key": "cpu            ",
+            "keyColor": "33",
+        },
+        {
+            "type": "memory",
+            "key": "memory          ",
+            "keyColor": "33",
+        },
+        {
+            "type": "disk",
+            "key": "disk           ",
+            "keyColor": "33",
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "circle",
+        },
+        "break",
+        "break",
+    ]
+}
+```
+
+sudo nano ~/.config/fastfetch/ascii/cat.txt
+```sh
+     /\___/\
+     )     (
+    =\     /=
+      )   (
+     /     \
+     )     (
+    /       \
+    \       /
+     \__ __/
+        ))
+       //
+      ((
+       \)
+    unbr0ken
+```
