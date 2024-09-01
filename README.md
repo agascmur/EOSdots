@@ -144,7 +144,7 @@ sudo nano ~/.config/fastfetch/config.jsonc
         },
         {
             "type": "memory",
-            "key": "memory          ",
+            "key": "memory         ",
             "keyColor": "33",
         },
         {
