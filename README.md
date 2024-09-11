@@ -217,4 +217,6 @@ WantedBy=multi-user.target
 ######
 
 systemctl enable rclone-gdrive
+
+sudo pacman -Sy keepass
 ```
