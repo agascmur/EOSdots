@@ -12,7 +12,7 @@ My dots and process that I've done in my EndeavourOS system / XFCE4.
 sudo pacman -Sy tlp tlp-rdw # Also needed to: pacman purge power-profiles-daemon
 sudo pacman -Sy psensor cpupower powertop thermald bbswitch
 sudo pacman -Sy xf86-video-intel intel-gpu-tools
-sudo pacman -Sy timeshift code mpv fastfetch
+sudo pacman -Sy timeshift code mpv fastfetch libreoffice-still
 yay -Sy spotify
 
 #lobster install (series/movies)
@@ -178,5 +178,44 @@ sudo nano ~/.config/fastfetch/ascii/cat.txt
        //
       ((
        \)
-    unbr0ken
+```
+### Obsidian and Drive sync installation
+
+```sh
+sudo pacman -Sy obsidian
+
+sudo pacman -Sy rclone
+rclone config create gdrive drive
+
+#Manual mount
+mkdir google-drive && rclone mount gdrive: ~/google-drive --vfs-cache-mode writes &
+
+
+# Set systemd service to automate mount
+sudo nano /etc/systemd/system/rclone-gdrive.service
+######
+[Unit]
+Description=Rclone Mount for Google Drive
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+[Unit]
+Description=Rclone Mount for Google Drive
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount gdrive: /home/agascmur/google-drive --vfs-cache-mode writes
+ExecStop=/bin/fusermount -u /home/agascmur/google-drive
+Restart=on-failure
+User=agascmur
+Group=agascmur
+
+[Install]
+WantedBy=multi-user.target
+######
+
+systemctl enable rclone-gdrive
 ```
