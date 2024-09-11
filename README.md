@@ -199,7 +199,6 @@ Description=Rclone Mount for Google Drive
 Wants=network-online.target
 After=network-online.target
 
-[Service]
 [Unit]
 Description=Rclone Mount for Google Drive
 Wants=network-online.target
