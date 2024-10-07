@@ -4,7 +4,8 @@ Special thanks to The Linux Cast https://www.youtube.com/watch?v=mgyTCqr51iI&lis
 
 My dots and process that I've done in my EndeavourOS system / XFCE4.
 
-![Screenshot_2024-08-30_23-48-23](https://github.com/user-attachments/assets/205e032a-8c00-4208-84d7-5f9b30694578)
+![final1](https://github.com/user-attachments/assets/bc145aa4-4227-4472-aa7e-3d0e2623a048)
+
 
 ## Packages
 
