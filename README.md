@@ -222,3 +222,16 @@ systemctl enable rclone-gdrive
 
 sudo pacman -Sy keepass
 ```
+
+### Adding a Win + V clipboard
+sudo pacman -S xfce4-clipman-plugin
+
+Assigning a Keyboard Shortcut:
+Open Settings > Keyboard.
+Go to the Application Shortcuts tab and add a new shortcut with the command:
+
+```sh
+xfce4-popup-clipman
+```
+
+Assign a preferred shortcut key, such as Win+V.
