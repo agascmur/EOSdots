@@ -184,7 +184,6 @@ sudo nano ~/.config/fastfetch/ascii/cat.txt
 
 ```sh
 sudo pacman -Sy obsidian
-yay -S notable # simpler option
 
 sudo pacman -Sy rclone
 rclone config create gdrive drive
