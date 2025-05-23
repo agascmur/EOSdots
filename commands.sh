@@ -20,11 +20,13 @@ sudo snap install --edge youtube-music
 sudo snap install code --classic
 sudo snap install android-studio --classic
 sudo snap install androidsdk
+# Log out and in to see all the Apps in the Kde menu
 
 snap list
 # sudo snap remove $app
 
-# Log out and in to see all the Apps in the Kde menu
+git config --global user.email "agascmur@gmail.com"
+git config --global user.name "agascmur"
 
 
 # Ricing
