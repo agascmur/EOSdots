@@ -4,7 +4,8 @@
 sudo apt update && sudo apt upgrade -y
 
 # 📦 Install essentials
-sudo apt install kitty htop snapd yt-dlp cava keepassxc rclone -y
+sudo apt install kitty htop snapd yt-dlp keepassxc rclone -y
+sudo apt install btop cava -y
 
 # 📁 Clone dotfiles
 mkdir ~/Git && \
